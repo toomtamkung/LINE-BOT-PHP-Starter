@@ -25,7 +25,7 @@ if (!is_null($events['events'])) {
         22 สิงหาคม 2560 - คณะกรรมการบริหารประจำคณะฯ สามัญ'
       }
       else{
-        $resp = 'ฉันเป็น BOT DENT CMU';
+        $resp = 'พิมพ์ "คำสั่ง" เพื่อดูรายการ';
       }
 			$messages = [
 				'type' => 'text',
