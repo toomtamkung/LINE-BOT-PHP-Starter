@@ -18,7 +18,7 @@ if (!is_null($events['events'])) {
 
 			// Build message to reply back
       if($text == 'คำสั่ง'){
-        $resp = "ตาราง - ตารางการประชุม<br>วาระ - ดูวาระการประชุมครั้งล่าสุด";
+        $resp = "ตาราง - ตารางการประชุม วาระ - ดูวาระการประชุมครั้งล่าสุด";
       }
       else{
         $resp = 'ฉันเป็น BOT DENT CMU';
