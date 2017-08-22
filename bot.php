@@ -17,9 +17,15 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
+      if($text == 'คำสั่ง'){
+        $resp = "ตาราง - ตารางการประชุม<br>วาระ - ดูวาระการประชุมครั้งล่าสุด";
+      }
+      else{
+        $resp = 'ฉันเป็น BOT DENT CMU';
+      }
 			$messages = [
 				'type' => 'text',
-				'text' => 'ฉันเป็น BOT DENT CMU'
+				'text' => $resp
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
